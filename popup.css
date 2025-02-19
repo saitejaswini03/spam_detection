@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+.status {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.safe {
+    color: green;
+}
+
+.suspicious {
+    color: orange;
+}
+
+.fraudulent {
+    color: red;
+}
+
+button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
