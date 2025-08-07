@@ -32,34 +32,23 @@ spam-detection/
 ├── README.md
 └── requirements.txt
 
-bash
-Copy
-Edit
-
 ## ⚙️ Installation
 
 1. Clone the repository:
 
-```bash
+
 git clone https://github.com/yourusername/spam-detection.git
 cd spam-detection
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Run the training script (if not already trained):
 
-bash
-Copy
-Edit
+
 python train_model.py
 Start the app (if using Flask/Streamlit):
 
-bash
-Copy
-Edit
+
 python app.py
 📊 Dataset
 The model is trained on a public dataset of labeled emails. Each entry is classified as:
